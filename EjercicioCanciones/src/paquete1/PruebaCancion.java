@@ -28,6 +28,7 @@ public class PruebaCancion {
 			// Canciones nuevas para Git
 			Cancion cuartaCancion = new Cancion("Crazy", "Aerosmith", 420, false);
 			Cancion quintaCancion = new Cancion("Satisfaction", "Rolling Stones", 320, true);
+			Cancion sextaCancion = new Cancion("In the end", "Linkin Park", 390, false);
 
 			if (primeraCancion.reproducirCancion()) {
 				System.out.println(primeraCancion.getTitulo() + "está sonando");
