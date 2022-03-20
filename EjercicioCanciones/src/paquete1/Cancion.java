@@ -187,9 +187,10 @@ public class Cancion {
 		 * Método que devuelve información de la canción: título, autor, grupo, duración y si está sonando o no.
 		 */
 
-		@Override
-		public String toString() {
-			return "Cancion [titulo=" + titulo + ", autor=" + grupo + ", duracion=" + duracion + ", sonando=" + sonando
-					+ "]";
+		@Override 
+		public String toString() { 
+			return "Datos de la canción [titulo=" + titulo + ", autor=" + grupo + ", duracion=" + duracion 
+					+ ", sonando=" + sonando+ "]"; 
 		}
+
 }
